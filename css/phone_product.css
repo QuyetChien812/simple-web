@@ -1,0 +1,55 @@
+
+   .headline{
+      text-align: center;
+      margin: 40px 0px;
+      font-weight: 600;
+   }
+   h3{
+    font-size: 18px;
+    color:black ;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    display: inline-block;
+    color: #555;
+}
+ul.phone_products{
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+ul.phone_products li{
+   flex-basis: 25%;
+   padding-left: 15px;
+   padding-right: 15px;
+   box-sizing: border-box;
+   margin-bottom: 30px;
+}
+ul.phone_products img{
+   max-width: 100%;
+   height: auto;
+}
+ul.phone_products li .phone_info{
+   padding: 10px 0px;
+}
+ul.phone_products li .phone_info a{
+   display: block;
+   text-decoration: none;
+
+}
+ul.phone_products li .phone_info a.phone_cat{
+   font-size: 11px;
+   text-transform: uppercase;
+   color: grey;
+   padding: 3px 0px;
+}
+ul.phone_products li .phone_info a.phone_name{
+   color: #334862;
+   padding: 3px 0px;
+}
+ul.phone_products li .phone_info .phone_price{
+   color: #111;
+   padding: 2px 0px;
+   font-weight: 600;
+}
